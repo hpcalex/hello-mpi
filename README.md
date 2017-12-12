@@ -4,3 +4,15 @@ At the [Bibliotheca Alexandrina](https://www.bibalex.org), we have been
 using this very basic MPI code example to introduce HPC users to the
 [Message Passing
 Interface](https://en.wikipedia.org/wiki/Message_Passing_Interface).
+
+To compile for OpenMPI:
+
+```
+make -f Makefile.openmpi
+```
+
+To compile for Intel MPI:
+
+```
+make -f Makefile.intel
+```
