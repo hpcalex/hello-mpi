@@ -4,4 +4,4 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:15:00
 
-mpirun -np 24 ./hello-mpi
+mpirun -np "$SLURM_NTASKS" ./hello-mpi
