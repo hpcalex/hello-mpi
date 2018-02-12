@@ -16,3 +16,9 @@ To compile for Intel MPI:
 ```
 make -f Makefile.intel
 ```
+
+To run via Slurm:
+
+```
+sbatch hello-mpi.sh
+```
